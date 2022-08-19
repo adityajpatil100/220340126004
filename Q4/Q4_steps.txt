@@ -1,0 +1,18 @@
+Q4
+---->
+1. Write a factorial.py file for factorial
+2. Write a Dockerfile
+3. Run the command "sudo docker build -t python:exam ." in the same location where your 
+    Dockerfile is present.(refer python-1.png)
+4. Run the command "sudo docker images" to get the image Id
+5. To run the conatiner use the command "sudo docker run -it ImageID"
+    This will give a interactive mode of alpine. Now enter the desired number and get the output (refer python-2.png)
+6. To push the docker image into docker hub we need to create a link tag for the image
+7. Run the command "sudo docker tag python:exam vishwajit05/jeet2022:pythonExam"
+8. The above command will cerate a new image with the respective tag (refer python-3.png)
+9. Now run the command "sudo docker push vishwajit05/jeet2022:pythonExam"
+10. If you get a resource access denied error that means some other account is logined to the current system
+    So, run "sudo docker logout" then
+    "sudo docker login" and proide your credentials (refer python-4.png)
+11. Again run the command shown in step 9, refer python-5.png
+12. Now you can see the docker image in the docker hub, refer python-6.png

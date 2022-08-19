@@ -1,0 +1,12 @@
+Q3
+--->
+Steps
+1.Go to the IAM service
+2.Select the Users
+3.select add_users
+4.Give the user name and cheack the both Access key and Password and select Custom password and write the password you have and the click to next
+5.Select Set permissions boundary and select user permition boundry and click which policy may give to the user and click next and again click next
+6.click to the create user
+7.Click to the send mail and this access key mail was send the other user 
+8.In user side the Link is come in email copy this link and past to the chrome
+9.give the user name and you given password is here and sign in 

@@ -1,0 +1,12 @@
+Q2 
+-->
+Steps
+1.Create new EC2 instance
+2.Ganerate key and save to the folder 
+3.Go to the security
+4.Add the rule of port 22 and 80
+5.Go to connect and click to the SSH 
+6.change the permition of the Key file as the using the chmod 400 command
+7.open the terminal in the in that perticular folder where fileis save and copy the link in AWS SSH client
+8.install apache2 usinf command sudo apt install apache2 -y
+9.copy the AWS public IP and past to the Chrome 
