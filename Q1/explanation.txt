@@ -1,0 +1,9 @@
+Run the command:-
+- mosquitto_pub -d -q 1 -h "demo.thingsboard.io" -t "v1/devices/me/telemetry" -u "pXyFoQSaaYkQXQZts0J2" -f /home/diot/Desktop/Vishwajit/Q1/payload.json
+    Client null sending CONNECT
+    Client null received CONNACK (0)
+    Client null sending PUBLISH (d0, q1, r0, m1, 'v1/devices/me/telemetry', ... (180 bytes))
+    Client null received PUBACK (Mid: 1, RC:0)
+    Client null sending DISCONNECT
+
+- For output refer image thingsboard.png
